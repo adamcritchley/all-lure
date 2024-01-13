@@ -4139,6 +4139,10 @@
     (stroke (width 0) (type default))
     (uuid 0ddef888-9acb-40d5-b14c-d3c76ea1d589)
   )
+  (wire (pts (xy 133.604 149.86) (xy 141.732 149.86))
+    (stroke (width 0) (type default))
+    (uuid 0e40ee9f-8496-4c3f-8b5c-d96bb594f15f)
+  )
   (wire (pts (xy 67.818 15.875) (xy 67.818 24.638))
     (stroke (width 0) (type default))
     (uuid 0f4b440e-3d93-488f-8fa0-07c3dace7d2d)
@@ -5859,10 +5863,6 @@
     (stroke (width 0) (type default))
     (uuid d9cf3b83-431b-44fa-ada2-06b78c5bfe7e)
   )
-  (wire (pts (xy 134.112 149.86) (xy 133.604 149.86))
-    (stroke (width 0) (type default))
-    (uuid d9f882fa-d99a-444e-bca3-8b223cfb478f)
-  )
   (wire (pts (xy 56.134 127.762) (xy 58.166 127.762))
     (stroke (width 0) (type default))
     (uuid da23d003-746a-4d92-80dc-c33630584922)
@@ -5959,7 +5959,7 @@
     (stroke (width 0) (type default))
     (uuid e425442d-7b47-41bc-bfbb-4acd05a3970c)
   )
-  (wire (pts (xy 134.112 143.256) (xy 133.604 143.256))
+  (wire (pts (xy 133.604 143.256) (xy 141.732 143.256))
     (stroke (width 0) (type default))
     (uuid e4257e00-dfaf-4125-9f9b-8904f98f8a18)
   )
@@ -6567,7 +6567,7 @@
     )
     (pin "1" (uuid 0b9c9aeb-3cd7-420c-8a63-25915fa97125))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR043") (unit 1)
         )
@@ -6596,7 +6596,7 @@
     (pin "1" (uuid f5b2be92-530d-49ff-bbc6-c22de3b08b26))
     (pin "2" (uuid ddd64ba2-3699-4273-8c27-452683dd0a42))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R11") (unit 1)
         )
@@ -6625,7 +6625,7 @@
     (pin "1" (uuid b12c1910-5727-4b49-a90b-4bc5ad094928))
     (pin "2" (uuid 0a54388c-7263-4468-a572-f66b7d97f115))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R12") (unit 1)
         )
@@ -6654,7 +6654,7 @@
     (pin "1" (uuid 6cce7f25-bad1-4a03-8007-941d3036eec5))
     (pin "2" (uuid 9230f21b-8d1d-4712-815a-9d2e8a1198b8))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R2") (unit 1)
         )
@@ -6683,7 +6683,7 @@
     (pin "1" (uuid d3f13e18-80b9-4019-80e9-7e83b9d597b0))
     (pin "2" (uuid 594e46cd-62d2-4ce6-b718-50e84cdfad17))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R22") (unit 1)
         )
@@ -6708,7 +6708,7 @@
     )
     (pin "1" (uuid e91c097e-301e-40be-886b-71a160349f63))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H2") (unit 1)
         )
@@ -6733,7 +6733,7 @@
     )
     (pin "1" (uuid 9d3e4119-f6d5-4f91-b9bc-0a21f34c0864))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR054") (unit 1)
         )
@@ -6758,7 +6758,7 @@
     )
     (pin "1" (uuid 2317b18b-e034-434f-ac49-3115ad8e557e))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR053") (unit 1)
         )
@@ -6782,7 +6782,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H7") (unit 1)
         )
@@ -6811,7 +6811,7 @@
     (pin "1" (uuid dbc1019a-c3df-49f9-8fe2-7a581dca606f))
     (pin "2" (uuid 2e719518-bd2c-4e9e-84b4-832211cd4a22))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R1") (unit 1)
         )
@@ -6836,7 +6836,7 @@
     )
     (pin "1" (uuid d27b73e0-2316-4b6f-962a-e6fd0ecefe87))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR046") (unit 1)
         )
@@ -6861,7 +6861,7 @@
     )
     (pin "1" (uuid e171e0ca-8a17-4677-812f-db15a3b46d9f))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H3") (unit 1)
         )
@@ -6890,7 +6890,7 @@
     (pin "1" (uuid c65fb84a-7088-4dcb-b888-9fe15efbaf1f))
     (pin "2" (uuid 50703fda-626f-4443-9c12-ccdd50626ecf))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R3") (unit 1)
         )
@@ -6919,7 +6919,7 @@
     (pin "1" (uuid 6986a435-38c2-4154-ad5b-669b480115ff))
     (pin "2" (uuid 9f42dffe-fe62-47b3-b704-aa9ef315f1c9))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C17") (unit 1)
         )
@@ -6945,7 +6945,7 @@
     (pin "1" (uuid 97e4189f-14fb-4413-b319-39dc2ef3a735))
     (pin "2" (uuid bebf9723-a87e-4b94-9985-0c615072d57f))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R9") (unit 1)
         )
@@ -6974,7 +6974,7 @@
     (pin "1" (uuid eafbe93b-00dd-4651-bd93-c336e885964f))
     (pin "2" (uuid 772ed21e-b8f2-40b2-b247-39df29450870))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R21") (unit 1)
         )
@@ -7038,7 +7038,7 @@
     )
     (pin "1" (uuid 0984632a-87d2-4499-8b7b-eb2c7e887101))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "TP1") (unit 1)
         )
@@ -7063,7 +7063,7 @@
     )
     (pin "1" (uuid c5765fba-fe7f-429f-bb88-ad4ca8e42dbb))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR06") (unit 1)
         )
@@ -7116,7 +7116,7 @@
     (pin "1" (uuid 5ec6ee9a-18f6-4395-ba7b-9aac9e7853ac))
     (pin "2" (uuid eaabd10a-6b08-4641-978e-38093d76af08))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "L1") (unit 1)
         )
@@ -7141,7 +7141,7 @@
     )
     (pin "1" (uuid 8e7e7f99-2855-4cbe-8d39-790913750508))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR044") (unit 1)
         )
@@ -7166,7 +7166,7 @@
     )
     (pin "1" (uuid a1f1735e-42e0-451a-b0cd-7939dc2e33ca))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H10") (unit 1)
         )
@@ -7195,7 +7195,7 @@
     (pin "1" (uuid 32de5bbc-b4c8-4a89-8d49-76eeded03522))
     (pin "2" (uuid 8b2c979b-5053-427a-a756-073620f5003a))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C26") (unit 1)
         )
@@ -7220,7 +7220,7 @@
     )
     (pin "1" (uuid a1a9f3ac-e811-4529-a57b-71d02d605380))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR014") (unit 1)
         )
@@ -7249,7 +7249,7 @@
     (pin "1" (uuid c2cabfcd-c981-4f75-832f-9845263b005f))
     (pin "2" (uuid 8ceb0000-bc94-4f7d-bb5f-9b3cdacf7824))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R20") (unit 1)
         )
@@ -7274,7 +7274,7 @@
     )
     (pin "1" (uuid 4c5db0e4-40ec-470d-a88b-619dfc929218))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR030") (unit 1)
         )
@@ -7299,7 +7299,7 @@
     )
     (pin "1" (uuid 7842aae4-1257-4cd9-8b0d-4c3617c199f1))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR026") (unit 1)
         )
@@ -7324,7 +7324,7 @@
     )
     (pin "1" (uuid 5ffa5331-f7b4-4aaf-b492-02ab625c83cf))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR031") (unit 1)
         )
@@ -7353,7 +7353,7 @@
     (pin "1" (uuid 5b71c105-9cfd-49a7-ac05-86a95090a5fc))
     (pin "2" (uuid b0a03efc-2a73-4a61-9b9a-182f525fecd7))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R6") (unit 1)
         )
@@ -7382,7 +7382,7 @@
     (pin "1" (uuid 2fe7b691-4b8c-41af-b6a7-9a6c7d2e6970))
     (pin "2" (uuid 7aa01606-e730-4036-919f-536e97ce27dc))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C5") (unit 1)
         )
@@ -7407,7 +7407,7 @@
     )
     (pin "1" (uuid a678c077-95bd-4a07-99a0-48be577a0ab4))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR049") (unit 1)
         )
@@ -7436,7 +7436,7 @@
     (pin "1" (uuid a6638352-6e9b-4503-bb3f-c9312d5042e3))
     (pin "2" (uuid bd569c5a-96a0-4720-b986-6fda68fe42b3))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R18") (unit 1)
         )
@@ -7465,7 +7465,7 @@
     (pin "1" (uuid b0dfb078-c95d-4846-bfa4-4cec0ada92a2))
     (pin "2" (uuid b0486cca-38c0-4332-9d87-c296bef2d71a))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C10") (unit 1)
         )
@@ -7490,7 +7490,7 @@
     )
     (pin "1" (uuid 658823e9-06ec-4e2d-aa10-4d71762e01c6))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR01") (unit 1)
         )
@@ -7515,7 +7515,7 @@
     )
     (pin "1" (uuid bc805b80-921f-4858-ab69-a116126e2475))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H5") (unit 1)
         )
@@ -7539,7 +7539,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H8") (unit 1)
         )
@@ -7568,7 +7568,7 @@
     (pin "1" (uuid 16cd0dc5-00b8-4a30-9df3-bccd9c91c425))
     (pin "2" (uuid e51d9128-8c1e-400a-bc6d-7b526883a497))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C6") (unit 1)
         )
@@ -7593,7 +7593,7 @@
     )
     (pin "1" (uuid 3f2ffe79-4f5d-4e24-b8e5-4afbf6f2b953))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "TP2") (unit 1)
         )
@@ -7618,7 +7618,7 @@
     )
     (pin "1" (uuid fb9f443e-f8bc-4527-a606-935f130ef460))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR051") (unit 1)
         )
@@ -7647,7 +7647,7 @@
     (pin "1" (uuid a09e6f47-0570-4755-b25a-72534b41c142))
     (pin "2" (uuid 95509336-f82a-4fb3-95f1-e9290a566d29))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C30") (unit 1)
         )
@@ -7676,7 +7676,7 @@
     (pin "1" (uuid 7468a03c-fe71-4c43-acf4-b3aa15f77486))
     (pin "2" (uuid d4d0d810-f058-4779-bee4-bac7e24f3d3c))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "D5") (unit 1)
         )
@@ -7701,7 +7701,7 @@
     )
     (pin "1" (uuid c38576d5-36c3-4e25-8c4e-74e145ff2785))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR050") (unit 1)
         )
@@ -7730,7 +7730,7 @@
     (pin "1" (uuid 9c6d8e74-02a4-47e4-ac19-1fff2d5b8fcc))
     (pin "2" (uuid 7247e396-610a-49d9-950a-e7976e01afc2))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C27") (unit 1)
         )
@@ -7759,7 +7759,7 @@
     (pin "1" (uuid b73572ce-8361-4d0d-b3b5-2770de684802))
     (pin "2" (uuid 87ff8208-84a3-44fa-bf66-3760e561fbf6))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C21") (unit 1)
         )
@@ -7784,7 +7784,7 @@
     )
     (pin "1" (uuid b28a75e9-10f3-4842-b3f9-0eef87107c11))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR042") (unit 1)
         )
@@ -7813,7 +7813,7 @@
     (pin "1" (uuid e849a3f4-1799-4be8-978a-6c20b3784219))
     (pin "2" (uuid 5d7d540a-ca88-4f37-b750-6d235b5d9a79))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C4") (unit 1)
         )
@@ -7918,7 +7918,7 @@
     (pin "8" (uuid 5df0600d-ce3f-47a6-93fc-8dc861c02cce))
     (pin "9" (uuid 3c052b91-4e5d-47d4-b8ec-6b8007cf9d82))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "J3") (unit 1)
         )
@@ -7947,7 +7947,7 @@
     (pin "1" (uuid ad74601e-21a8-4116-860d-36bf0f5c3620))
     (pin "2" (uuid 5abac9c0-ab79-4707-9c14-46e460e1f206))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "D3") (unit 1)
         )
@@ -7979,7 +7979,7 @@
     (pin "4" (uuid 52a149ce-bdfe-4d95-b407-b8de482f8462))
     (pin "5" (uuid 08c16770-824d-4d1a-9d18-58b1a32e7d2e))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "U1") (unit 1)
         )
@@ -8003,7 +8003,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H12") (unit 1)
         )
@@ -8032,7 +8032,7 @@
     (pin "1" (uuid ec1ed754-88ee-4249-9d22-d5c4c011a22b))
     (pin "2" (uuid a1a13d17-9c58-4a5b-afca-b474bb2f4767))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R17") (unit 1)
         )
@@ -8057,7 +8057,7 @@
     )
     (pin "1" (uuid 0c22122f-1f3a-4062-80fa-145d0def5dac))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR02") (unit 1)
         )
@@ -8082,7 +8082,7 @@
     )
     (pin "1" (uuid 7dc245ce-8397-49d8-a4f6-7071e86ae93f))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR033") (unit 1)
         )
@@ -8111,7 +8111,7 @@
     (pin "1" (uuid 5b2261c7-defe-4f3c-8dfc-634a72966785))
     (pin "2" (uuid 460ae4c9-14b3-48eb-bf61-d1257270e177))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C23") (unit 1)
         )
@@ -8136,7 +8136,7 @@
     )
     (pin "1" (uuid 296bc7bf-e1df-4572-af75-e731f7c7e951))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR040") (unit 1)
         )
@@ -8161,7 +8161,7 @@
     )
     (pin "1" (uuid e683cd71-cd77-4f9a-90eb-02525c7023db))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR019") (unit 1)
         )
@@ -8186,7 +8186,7 @@
     )
     (pin "1" (uuid b7fc0a32-f793-48ec-9f9d-2f0a869e6e07))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR027") (unit 1)
         )
@@ -8215,7 +8215,7 @@
     (pin "1" (uuid f090ea4a-efd0-4130-8685-59bbfd41586d))
     (pin "2" (uuid f7cded0d-7513-41c0-8bac-3955b79c298d))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C2") (unit 1)
         )
@@ -8240,7 +8240,7 @@
     )
     (pin "1" (uuid 1e2bce4e-4daa-481d-8193-6fddf6ffa29c))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR036") (unit 1)
         )
@@ -8269,7 +8269,7 @@
     (pin "1" (uuid 58c77b05-d4b3-45e2-80bd-f69790920973))
     (pin "2" (uuid 73b641c0-aa61-418b-88c7-1796057d2524))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R13") (unit 1)
         )
@@ -8336,7 +8336,7 @@
     (pin "SH3" (uuid 2ff1cb7b-2bc7-4fb9-b597-682b35bc7456))
     (pin "SH4" (uuid 66fe2a7e-2735-41e5-abd8-1de7cf50275a))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "J8") (unit 1)
         )
@@ -8361,7 +8361,7 @@
     )
     (pin "1" (uuid 239bdd03-7715-4735-8582-6022d83c00a1))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR07") (unit 1)
         )
@@ -8386,7 +8386,7 @@
     )
     (pin "1" (uuid 969da18c-71a5-4595-bdc2-4861ef896111))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR025") (unit 1)
         )
@@ -8415,7 +8415,7 @@
     (pin "1" (uuid b30d645a-2d8f-4455-bee5-02abb5e52530))
     (pin "2" (uuid 8ab1e642-d85f-4bf0-8350-dc9a4e8d7a97))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C3") (unit 1)
         )
@@ -8445,7 +8445,7 @@
     (pin "2" (uuid c39c935e-af99-4428-98ff-ad642cc8b397))
     (pin "3" (uuid 228d3ba0-7bca-4aa5-9844-aeedd1426a86))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "D1") (unit 1)
         )
@@ -8470,7 +8470,7 @@
     )
     (pin "1" (uuid b6c6d45c-8950-40a9-96ab-13c11d1ad6c3))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR016") (unit 1)
         )
@@ -8495,7 +8495,7 @@
     )
     (pin "1" (uuid 73d43649-9d7b-42a0-a88e-b04f10664c64))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR041") (unit 1)
         )
@@ -8520,7 +8520,7 @@
     )
     (pin "1" (uuid aaced4ff-a0c6-4fb6-9f61-ed6c437301bf))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR03") (unit 1)
         )
@@ -8549,7 +8549,7 @@
     (pin "1" (uuid 442f33dc-71ec-4ae5-a993-89d06b79897d))
     (pin "2" (uuid a4101a3b-bcc4-4a20-8c4d-303c5482f4d3))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R7") (unit 1)
         )
@@ -8578,7 +8578,7 @@
     (pin "1" (uuid 4e3d74cd-adf7-4a47-ad00-db69be6f297f))
     (pin "2" (uuid 8ca62253-fd6d-4459-a255-dce956dd0ba5))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C31") (unit 1)
         )
@@ -8707,7 +8707,7 @@
     (pin "8" (uuid d6fce52c-b2fb-4377-8169-ecb58e165e0a))
     (pin "9" (uuid 24c8925d-6a2e-4d3f-bc3a-e36e8d92cabf))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "J4") (unit 1)
         )
@@ -8736,7 +8736,7 @@
     (pin "1" (uuid e0837067-9af9-4258-a7f1-dae2762a6c89))
     (pin "2" (uuid ada2e25c-fbaf-4402-a06c-668a62ba3c77))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R16") (unit 1)
         )
@@ -8761,7 +8761,7 @@
     )
     (pin "1" (uuid ed407211-dfcf-40f5-b913-913355b77f84))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR029") (unit 1)
         )
@@ -8786,7 +8786,7 @@
     )
     (pin "1" (uuid e9fc37c7-9ce4-42be-97dc-a1aa869be775))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR023") (unit 1)
         )
@@ -8811,7 +8811,7 @@
     )
     (pin "1" (uuid 5cd1917b-eee9-4367-9f4b-eecdbb3b619e))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR05") (unit 1)
         )
@@ -8840,7 +8840,7 @@
     (pin "1" (uuid 2490309f-c2e9-484b-8031-b1277576aec3))
     (pin "2" (uuid 341810ae-d177-4edc-a0f1-8d64ef9fca40))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C12") (unit 1)
         )
@@ -8868,7 +8868,7 @@
     (pin "3" (uuid 101f4c0e-97d0-42f6-91ed-ddfed34fce96))
     (pin "4" (uuid 336223e7-516e-4a0f-9158-0cafdd0d7fef))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "J6") (unit 1)
         )
@@ -8893,7 +8893,7 @@
     )
     (pin "1" (uuid ae61e6fd-650f-4b7e-b531-56166bdf7b11))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "TP3") (unit 1)
         )
@@ -8998,7 +8998,7 @@
     (pin "8" (uuid 4851a02c-7a5a-4a97-b6b1-c01809feaac3))
     (pin "9" (uuid 6e68d218-62a6-4cb3-8563-ab231eeb7172))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "J2") (unit 1)
         )
@@ -9024,7 +9024,7 @@
     (pin "1" (uuid 12446e78-a40e-47dd-809a-cda3e4a1a913))
     (pin "2" (uuid 7c074cc3-8c59-4557-818a-1725deeb3087))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R4") (unit 1)
         )
@@ -9049,7 +9049,7 @@
     )
     (pin "1" (uuid f1fb86ff-3c0f-4a42-8a54-902845c20f03))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR021") (unit 1)
         )
@@ -9074,7 +9074,7 @@
     )
     (pin "1" (uuid 5d98df0b-e68f-4af0-925f-dbeeab714acd))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR032") (unit 1)
         )
@@ -9099,7 +9099,7 @@
     )
     (pin "1" (uuid bdaf68dd-79c8-497b-a4dc-0892eb77e77c))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H9") (unit 1)
         )
@@ -9124,7 +9124,7 @@
     )
     (pin "1" (uuid 3d1cb11a-f5f1-4858-a7a9-93a98c79653d))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR045") (unit 1)
         )
@@ -9149,7 +9149,7 @@
     )
     (pin "1" (uuid 0d508901-cd23-4011-b4d7-cd1fe803b663))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR058") (unit 1)
         )
@@ -9178,7 +9178,7 @@
     (pin "1" (uuid d073734b-35e8-4bda-b932-4259429783ce))
     (pin "2" (uuid 4abf7abb-9ccf-4321-98a2-b343edef266e))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C28") (unit 1)
         )
@@ -9207,7 +9207,7 @@
     (pin "1" (uuid 02422e89-5f1a-43b5-85c3-55ecfb96f0de))
     (pin "2" (uuid 4894053a-8df7-4463-9cd6-ed233f76f014))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C8") (unit 1)
         )
@@ -9232,7 +9232,7 @@
     )
     (pin "1" (uuid 61540042-5b96-4d85-acda-c109b2950a36))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H1") (unit 1)
         )
@@ -9261,7 +9261,7 @@
     (pin "1" (uuid 3fd78927-f2ee-4772-b463-930fe50779cd))
     (pin "2" (uuid ac8ecec5-f09f-48e2-b190-ed9942b41e96))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C16") (unit 1)
         )
@@ -9290,7 +9290,7 @@
     (pin "1" (uuid c1cc1ec5-fc02-4ea0-a5e2-528d1ca90a2c))
     (pin "2" (uuid b543bfbf-b8d2-44a2-9b6b-bd012d959188))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R24") (unit 1)
         )
@@ -9319,7 +9319,7 @@
     (pin "1" (uuid 9e00d427-4719-486b-b95a-171ceb8ef419))
     (pin "2" (uuid ee2fb2c3-d0be-4d0a-97bd-dbb0c14671aa))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "D4") (unit 1)
         )
@@ -9348,7 +9348,7 @@
     (pin "1" (uuid 70a9237c-e2a7-43fc-800f-2e9d1f4d444c))
     (pin "2" (uuid c2d8620e-46db-446e-81d2-e7e11294d68b))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C18") (unit 1)
         )
@@ -9401,7 +9401,7 @@
     (pin "1" (uuid 0de7978c-b56e-4e18-ae14-868acae80712))
     (pin "2" (uuid 12f0fa24-8ae2-47bb-8eb0-ec61b799e44a))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "L3") (unit 1)
         )
@@ -9430,7 +9430,7 @@
     (pin "1" (uuid d60986c3-186b-47bf-9f88-818b3cc86612))
     (pin "2" (uuid 31d21d38-fa7c-41e6-a1fd-559a1a6d28e3))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "FB2") (unit 1)
         )
@@ -9459,7 +9459,7 @@
     (pin "1" (uuid 50bf5d33-a172-423d-9f60-db9d0bcfe75e))
     (pin "2" (uuid a9acceae-1f92-4230-bcd4-a1e158abada6))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C29") (unit 1)
         )
@@ -9485,7 +9485,7 @@
     (pin "1" (uuid 75c0d933-fb0d-41e3-b841-9024e9a29a27))
     (pin "2" (uuid ae30c863-5867-46e8-9b43-341afb0bd711))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "J5") (unit 1)
         )
@@ -9510,7 +9510,7 @@
     )
     (pin "1" (uuid 830a6c73-98d8-4055-bc48-c061c09f7311))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR057") (unit 1)
         )
@@ -9539,7 +9539,7 @@
     (pin "1" (uuid e7e0dd41-b68e-4a85-89a6-65f01c8bd5f5))
     (pin "2" (uuid 8fc982a7-d571-46e3-968d-2df657b3d30d))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C15") (unit 1)
         )
@@ -9564,7 +9564,7 @@
     )
     (pin "1" (uuid 70065d43-0a6e-4d80-8a83-9b158c1c81a3))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR017") (unit 1)
         )
@@ -9589,7 +9589,7 @@
     )
     (pin "1" (uuid 65a908e5-89b1-4648-be6f-e57fa8bcded9))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR052") (unit 1)
         )
@@ -9614,7 +9614,7 @@
     )
     (pin "1" (uuid 12e9aeda-f1f2-4ed1-baa3-33b65d4d92d2))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR015") (unit 1)
         )
@@ -9643,7 +9643,7 @@
     (pin "1" (uuid af2c8eb4-ec92-4c4a-898e-e319d7ff6775))
     (pin "2" (uuid 48424162-42ba-44ea-b1d9-846fe0ecd1d9))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C1") (unit 1)
         )
@@ -9668,7 +9668,7 @@
     )
     (pin "1" (uuid 8d4b7287-3b9f-4256-9a14-e9945cb56ec3))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR034") (unit 1)
         )
@@ -9693,7 +9693,7 @@
     )
     (pin "1" (uuid b93a576e-2d63-46a0-8fb2-cbc1e6e0d6e5))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR09") (unit 1)
         )
@@ -9718,7 +9718,7 @@
     )
     (pin "1" (uuid 9f63c91d-ec52-4a67-ac19-2d18b93c0403))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR039") (unit 1)
         )
@@ -9747,7 +9747,7 @@
     (pin "1" (uuid 5e58f1b1-af97-4616-82ec-dc69350a1d65))
     (pin "2" (uuid 46f2cd22-fb96-425f-a03f-55ac48fcf278))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R15") (unit 1)
         )
@@ -9772,7 +9772,7 @@
     )
     (pin "1" (uuid 01bb36d1-3707-4392-b06d-e4c779ad9a54))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR018") (unit 1)
         )
@@ -9801,7 +9801,7 @@
     (pin "1" (uuid bad6ba45-0000-4fb5-9b57-87a493c57396))
     (pin "2" (uuid 2ce00702-b8c3-4e63-8d3e-a4eda9238d2d))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R10") (unit 1)
         )
@@ -9900,7 +9900,7 @@
     (pin "59" (uuid cd289778-27ea-4c30-ab71-be3243b4c8ab))
     (pin "60" (uuid 6cea05ef-2d34-488b-a203-51bc69874eba))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "J1") (unit 1)
         )
@@ -9925,7 +9925,7 @@
     )
     (pin "1" (uuid f142c856-177b-4d24-a438-fc8e4a495771))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR022") (unit 1)
         )
@@ -9954,7 +9954,7 @@
     (pin "1" (uuid 360ae022-a84e-432a-9e8c-bac69aa701e2))
     (pin "2" (uuid 29e22986-f187-4489-bf7b-7e5ddcdd1834))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C11") (unit 1)
         )
@@ -9983,7 +9983,7 @@
     (pin "1" (uuid 3ca995b6-e1ef-4b51-a1c1-74230fa85db6))
     (pin "2" (uuid c6adb8f1-e8b7-4fbe-a834-fb2b92d3c369))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C20") (unit 1)
         )
@@ -10012,7 +10012,7 @@
     (pin "1" (uuid da5216af-f0ba-4c04-981b-41c431f723b0))
     (pin "2" (uuid 6a353c5d-e0a7-4247-9eee-aad62e1af23c))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C19") (unit 1)
         )
@@ -10068,7 +10068,7 @@
     (pin "7" (uuid 44ca02af-2a9e-4749-ae20-3c31bb451f30))
     (pin "8" (uuid 06eb19f1-ab29-4449-88ae-62f6b773ffbe))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "U4") (unit 1)
         )
@@ -10097,7 +10097,7 @@
     (pin "1" (uuid 39322b78-9ac9-4f0a-800f-8180bcbd93f9))
     (pin "2" (uuid 3ca65603-7d9b-4442-9a93-0f649fbff5d8))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C25") (unit 1)
         )
@@ -10122,7 +10122,7 @@
     )
     (pin "1" (uuid 7256c1a6-9384-474b-bc3e-d4eef03246a6))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR010") (unit 1)
         )
@@ -10189,7 +10189,7 @@
     (pin "SH3" (uuid 7b9bba43-4da0-4b3a-a112-1734f9283f7c))
     (pin "SH4" (uuid dc858953-7734-4df3-9550-aabe62933899))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "J9") (unit 1)
         )
@@ -10214,7 +10214,7 @@
     )
     (pin "1" (uuid 64856c23-c403-41cb-947b-704f8b604fd5))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR056") (unit 1)
         )
@@ -10243,7 +10243,7 @@
     (pin "1" (uuid ca3c9a8d-2c51-4943-8cdd-b3c975c0b52a))
     (pin "2" (uuid f58564c2-9c35-469b-840b-8bd8cf5ac374))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R23") (unit 1)
         )
@@ -10268,7 +10268,7 @@
     )
     (pin "1" (uuid 6f0ed7b1-a527-4fdd-9fb8-71eb6b8d91c1))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR048") (unit 1)
         )
@@ -10300,7 +10300,7 @@
     (pin "4" (uuid 78ad428a-0e25-4182-8d10-050c70580a10))
     (pin "5" (uuid 5ac51621-46ea-4ca5-abd6-010239855a3a))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "U3") (unit 1)
         )
@@ -10325,7 +10325,7 @@
     )
     (pin "1" (uuid ae1dd12f-0f30-4dbc-8a54-d95e114d98aa))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H6") (unit 1)
         )
@@ -10350,7 +10350,7 @@
     )
     (pin "1" (uuid 367a599b-1910-4cce-956b-4970af2f3cbe))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR028") (unit 1)
         )
@@ -10403,7 +10403,7 @@
     (pin "1" (uuid ffe39c4a-c660-420d-b719-f4855bb0a52a))
     (pin "2" (uuid 153e9e4a-1943-43ea-9fea-505a2dd74331))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "L2") (unit 1)
         )
@@ -10428,7 +10428,7 @@
     )
     (pin "1" (uuid 3ec69b16-5c9c-480d-8d47-592529227eeb))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR024") (unit 1)
         )
@@ -10453,7 +10453,7 @@
     )
     (pin "1" (uuid b60b7cba-85f5-464e-b8b2-debbc24ddb60))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR020") (unit 1)
         )
@@ -10482,7 +10482,7 @@
     (pin "1" (uuid 84d4f4eb-4524-4807-9553-34045fea38cc))
     (pin "2" (uuid bd156315-04be-4ee2-8f24-527c9e4b877f))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "D2") (unit 1)
         )
@@ -10507,7 +10507,7 @@
     )
     (pin "1" (uuid 61165532-59f4-43f3-b84a-eb67bec461a7))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR08") (unit 1)
         )
@@ -10539,7 +10539,7 @@
     (pin "4" (uuid 96fe3a7f-ee57-4290-aa30-206de49d6d87))
     (pin "5" (uuid 33f7580e-9eba-4860-bcea-cfa418f6c86e))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "U2") (unit 1)
         )
@@ -10568,7 +10568,7 @@
     (pin "1" (uuid 9c73601e-4785-46f2-833b-e330db1e9830))
     (pin "2" (uuid ff379668-199e-41dc-a03f-a0729569ab06))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R14") (unit 1)
         )
@@ -10597,7 +10597,7 @@
     (pin "1" (uuid 6ec55c92-79a1-4825-a0b5-d22da747c7a1))
     (pin "2" (uuid 691668fb-923b-439b-ae6b-da5dcd77079f))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C24") (unit 1)
         )
@@ -10622,7 +10622,7 @@
     )
     (pin "1" (uuid e999b5de-2d48-4ef8-976f-f9b3d432dc40))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR012") (unit 1)
         )
@@ -10647,38 +10647,9 @@
     )
     (pin "1" (uuid 0a24c125-0076-419e-9ba7-12d7f894492c))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR055") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 137.922 143.256 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ddb05be8-8ae9-4a57-a885-e05cb7fa555e)
-    (property "Reference" "C36" (at 140.97 144.526 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0.1uF 16V" (at 141.986 139.7 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 141.732 142.2908 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 137.922 143.256 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "NMC0402X7R104K25TRPF" (at 137.922 143.256 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 92c44631-effa-4bb8-88f3-52a326189921))
-    (pin "2" (uuid d4838dc9-a294-4946-975f-42eb045e80ed))
-    (instances
-      (project "all-lure-v2"
-        (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
-          (reference "C36") (unit 1)
         )
       )
     )
@@ -10701,7 +10672,7 @@
     )
     (pin "1" (uuid ce44f439-2ed3-407a-8044-e12c4676876e))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR04") (unit 1)
         )
@@ -10730,7 +10701,7 @@
     (pin "1" (uuid 20dd093f-02a4-494a-b2b0-c47c95d0bd05))
     (pin "2" (uuid d8ab3e34-73f8-49c3-935e-af4f4e0127de))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R19") (unit 1)
         )
@@ -10759,7 +10730,7 @@
     (pin "1" (uuid 616ccd8e-d873-4020-99a4-d63c2ce68325))
     (pin "2" (uuid 604bfec0-b776-4185-834f-52ab39a8370d))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "FB1") (unit 1)
         )
@@ -10788,7 +10759,7 @@
     (pin "1" (uuid 105bd27d-3a73-4d7f-b17b-4cb15627b767))
     (pin "2" (uuid 93b0c72c-6a59-483b-8197-c9e8af49e532))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R8") (unit 1)
         )
@@ -10817,7 +10788,7 @@
     (pin "1" (uuid bfdeba3e-1863-4c20-a325-d54befebb728))
     (pin "2" (uuid da607124-cb41-4d2b-aeb9-ee38cfb9e25c))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C14") (unit 1)
         )
@@ -10843,7 +10814,7 @@
     (pin "1" (uuid 108d4b98-08df-4d49-9013-ee46153e787e))
     (pin "2" (uuid 0ad85f1f-499a-4b74-979b-f6b8c88b2977))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "R5") (unit 1)
         )
@@ -10868,7 +10839,7 @@
     )
     (pin "1" (uuid 4d8b131a-0e03-49e5-b4c7-53cc3c8ef18e))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR035") (unit 1)
         )
@@ -10893,7 +10864,7 @@
     )
     (pin "1" (uuid 20db64cf-377a-4efe-8dbe-92b96fea1b41))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "TP4") (unit 1)
         )
@@ -10922,7 +10893,7 @@
     (pin "1" (uuid 7adfde2a-2e63-41c4-b16e-2fc061801aff))
     (pin "2" (uuid 569a37b3-b751-4309-a4d1-3d099ce8d5c0))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C13") (unit 1)
         )
@@ -10947,7 +10918,7 @@
     )
     (pin "1" (uuid 290db6b4-b370-4cfc-887a-0be4343f4f59))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR013") (unit 1)
         )
@@ -10972,7 +10943,7 @@
     )
     (pin "1" (uuid 0ea08b63-26ba-4739-961b-f8ca8e984444))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR011") (unit 1)
         )
@@ -11001,38 +10972,9 @@
     (pin "1" (uuid eaf03062-a5ae-4111-887b-fb83b4c26b80))
     (pin "2" (uuid 753d349a-f13e-4313-abb7-f28bbf24466b))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C22") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C") (at 137.922 149.86 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f6fba66b-1ceb-4d75-b213-3cbee2823884)
-    (property "Reference" "C37" (at 140.97 151.13 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "0.1uF 16V" (at 141.986 153.162 90)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder" (at 141.732 148.8948 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 137.922 149.86 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "NMC0402X7R104K25TRPF" (at 137.922 149.86 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1598bdde-48a6-4bbe-bb69-9b30c5584e0b))
-    (pin "2" (uuid dd7db97a-4511-4c33-837f-5251a21c733b))
-    (instances
-      (project "all-lure-v2"
-        (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
-          (reference "C37") (unit 1)
         )
       )
     )
@@ -11059,7 +11001,7 @@
     (pin "1" (uuid db54518d-cf41-431d-aeab-cd53443e9b24))
     (pin "2" (uuid bfd63ff6-56df-4b1a-8226-1e64070681c5))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C7") (unit 1)
         )
@@ -11084,7 +11026,7 @@
     )
     (pin "1" (uuid 3eaaf255-600d-480c-a0b1-50fecef7c009))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR038") (unit 1)
         )
@@ -11113,7 +11055,7 @@
     (pin "1" (uuid 7f0e5bf1-c613-4544-af59-4614f5aef42c))
     (pin "2" (uuid 3175bc32-7414-4b04-ad91-285667471fc9))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "C9") (unit 1)
         )
@@ -11137,7 +11079,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H11") (unit 1)
         )
@@ -11162,7 +11104,7 @@
     )
     (pin "1" (uuid 74598862-07f1-4781-b1e7-7adb1d1d0328))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR047") (unit 1)
         )
@@ -11187,7 +11129,7 @@
     )
     (pin "1" (uuid 9b1afab5-e9c3-4e31-bf88-c630f9762aef))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "#PWR037") (unit 1)
         )
@@ -11212,7 +11154,7 @@
     )
     (pin "1" (uuid a6cd9d09-6d4b-4571-b5e6-e51309bf0a20))
     (instances
-      (project "all-lure-v2"
+      (project "all-lure"
         (path "/f489908c-a3a2-48a6-8194-a4c241afcb21"
           (reference "H4") (unit 1)
         )
